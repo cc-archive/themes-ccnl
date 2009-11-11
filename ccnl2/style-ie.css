@@ -1,0 +1,7 @@
+/* Transparent png's */
+/* Apply to all images, who knows if they'll be PNGs. */
+/* Because of WP routing issues, this has to be in the  */ 
+img {
+	behavior: url("http://www.creativecommons.nl/newsite/wp-content/themes/ccnl/pngie.htc");
+}
+
