@@ -29,23 +29,23 @@
 		<?php while (have_posts()) : the_post(); ?>
 				
 			<div class="post" id="post-<?php the_ID(); ?>">
-			  <h2 class="frontpage-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+        <h2 class="frontpage-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php __('Permanent Link to', $cc_txt_domain); ?> <?php the_title(); ?>"><?php the_title(); ?></a></h2>
         <small class="frontpage-small"><?php echo ucfirst( get_the_author_firstname() ) . ' ' . ucfirst( get_the_author_lastname() ); ?>, <?php the_time('j M, Y') ?></small>
 				<div class="entry">
 					<?php the_excerpt(); ?>
-<p><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php _e('Read more&#187;',$cc_txt_domain);?></a></p>
+<p><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php __('Permanent Link to', $cc_txt_domain); ?><?php the_title(); ?>"><?php _e('Read more&#187;',$cc_txt_domain);?></a></p>
 				</div>
 				<?php comments_template(); ?>
 			</div>
 	
 		<?php endwhile; ?>
 
-		<p align="center"><?php posts_nav_link(' - ','&#171; Vorige','Volgende &#187;') ?></p>
+		<p align="center"><?php posts_nav_link(' - ',__('&#171; Previous', $cc_txt_domain), __('Volgende &#187;', $cc_txt_domain) ) ?></p>
 		
 	<?php else : ?>
 
-		<h2 class="pagetitle-archive">Niks gevonden</h2>
-		<p class="center">Sorry, maar hetgeen wat je zoekt kunnen we niet vinden.</p>
+  <h2 class="pagetitle-archive"><?php _e('Nothing found', $cc_txt_domain); ?></h2>
+  <p class="center"><?php _e("Sorry can't find what you're looking for", $cc_txt_domain); ?></p>
 	<?php endif; ?>
 </div><!-- end id:content-main -->
 <?php get_sidebar();?>
