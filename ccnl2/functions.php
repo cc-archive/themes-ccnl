@@ -1,4 +1,12 @@
 <?php
+// set the text domain for translations
+$cc_txt_domain = 'ccnl2'; 
+load_theme_textdomain($cc_txt_domain);
+
+// make sure the dates etc are in Dutch
+// TODO need to make this a theme option
+setlocale(LC_ALL, 'nl_NL');
+
 // helper functions
   if ( function_exists('wp_list_bookmarks') ) //used to check WP 2.1 or not
     $numposts = $wpdb->get_var("SELECT COUNT(*) FROM $wpdb->posts WHERE post_type='post' and post_status = 'publish'");

@@ -1,15 +1,4 @@
 <?php 
-// make sure the dates etc are in Dutch
-setlocale(LC_ALL, 'nl_NL');
-session_start(); 
-
-// hopefully this prevents spammers from abusing the newsletter form
-if( isset($_SESSION) ) {
-  $rnd_string                  = 'i hate spammers, they should be anniliated' .time();
-  $hash                        = md5($rnd_string);
-  $_SESSION['nws_letter_hash'] = $hash;
-}
-
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

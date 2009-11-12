@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Bjorn Wijers <burobjorn AT burobjorn DOT nl>
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CCNL2 based on CCNL 2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ccnl2\n"
+"POT-Creation-Date: 2009-11-12 23:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:4
+msgid "404 Nothing found"
+msgstr ""
+
+#: attachment.php:24 page-archives.php:25
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: author.php:29
+msgid "No posts by this author."
+msgstr ""
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:70
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:74 comments.php:78
+msgid "(required)"
+msgstr ""
+
+#: functions.php:186
+msgid ""
+"<br/>Plaats geselecteerde pagina's niet in de hoofd navigatie <br/><br/>"
+msgstr ""
+
+#: page-archives.php:13
+msgid "by Categories"
+msgstr ""
+
+#: page-archives.php:17
+msgid "by Month"
+msgstr ""
+
+#: sidebar-activiteiten-buma-pilot.php:5 sidebar-activiteiten.php:5
+#: sidebar-homepage.php:5 sidebar-licenties.php:5 sidebar-onderzoek.php:5
+#: sidebar-over-ons.php:5 sidebar.php:5
+msgid "Archives"
+msgstr ""
+
+#: sidebar-activiteiten-buma-pilot.php:10 sidebar-activiteiten.php:10
+#: sidebar-homepage.php:10 sidebar-licenties.php:10 sidebar-onderzoek.php:10
+#: sidebar-over-ons.php:10 sidebar.php:10
+msgid "Categories"
+msgstr ""
+
+#: sidebar-activiteiten-buma-pilot.php:26 sidebar-activiteiten.php:26
+#: sidebar-homepage.php:26 sidebar-licenties.php:26 sidebar-onderzoek.php:26
+#: sidebar-over-ons.php:26 sidebar.php:26
+msgid "Pages"
+msgstr ""
+
+#: sidebar-activiteiten-buma-pilot.php:32 sidebar-activiteiten.php:32
+#: sidebar-homepage.php:32 sidebar-licenties.php:32 sidebar-onderzoek.php:32
+#: sidebar-over-ons.php:32 sidebar.php:32
+msgid "Meta"
+msgstr ""
+
+#. Theme Name of an extension
+msgid "CCNL2 based on CCNL"
+msgstr ""
+
+#. #-#-#-#-#  ccnl2.pot (CCNL2 based on CCNL 2)  #-#-#-#-#
+#. Theme URI of an extension
+#. #-#-#-#-#  ccnl2.pot (CCNL2 based on CCNL 2)  #-#-#-#-#
+#. Author URI of an extension
+msgid "http://www.burobjorn.nl"
+msgstr ""
+
+#. Description of an extension
+msgid "CC NL theme"
+msgstr ""
+
+#. Author of an extension
+msgid "Bjorn Wijers <burobjorn AT burobjorn DOT nl>"
+msgstr ""
