@@ -7,9 +7,10 @@
 			
 			<div class="post" id="post-<?php the_ID(); ?>">
 				<div class="posttitle">
-					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanente link naar <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php __('Permanent Link to', $cc_txt_domain); ?> <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 					<p class="post-info">
-						Geplaatst in <?php the_category(', ') ?>  op <?php the_time('j M, Y') ?> <?php edit_post_link('Aanpassen', '', ' | '); ?> <?php comments_popup_link('Geen reacties &#187;', '1 Reactie &#187;', '% Reacties &#187;'); ?> </p>
+          <?php	_e('Categorized as: ', $cc_txt_domain) . the_category(', ') . _e('at ', $cc_txt_domain) . the_time('j M, Y') . edit_post_link('Aanpassen', '', ' | '); ?>
+          <?php comments_popup_link('Be the first to comment &#187;', '1 comment &#187;', '% Comments &#187;'); ?> </p>
 				</div>				
 				<div class="entry">
 					<p class="<?php echo $classname; ?>"><?php echo $attachment_link; ?><br /><?php echo basename($post->guid); ?></p>
